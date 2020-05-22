@@ -10,5 +10,4 @@ Hi there! I'm so glad you've taken the time to look at my webpage. Here is a lit
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VikBelt/vikbelt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Contact Me!
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+email: vikram.belthur@gmail.com
