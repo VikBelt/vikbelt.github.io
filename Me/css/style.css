@@ -1,0 +1,54 @@
+
+body {
+    background-color: #f2f2f2;
+    color:rgb(48, 48, 48);
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*START TOP NAV*/
+.topnav {
+    background-color:#09588e;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+/* END TOP NAV*/
+
+.home {
+    background-image: url('..\images\bluecircuit.jpg');
+}
+
+.about {
+    text-align: justify;
+}
+/*PROJECTS SECTION*/
+.projects {
+    background-color: #09588e;
+    color: #f2f2f2;
+}
