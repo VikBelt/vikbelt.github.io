@@ -7,10 +7,16 @@ body {
 }
 
 h1 {
+    padding: 10px;
     text-align: center;
 }
 
 h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
     padding: 10px;
     text-align: center;
 }
@@ -62,4 +68,24 @@ p{
 .projects {
     background-color: #09588e;
     color: #f2f2f2;
+}
+
+.wrapper {
+    background-color: lightslategray;
+    color: #f2f2f2;
+    display: flex;
+}
+
+.wrapper div{
+    border: 2px #ccc solid;
+}
+
+.pong{
+    flex: 1;
+    flex-grow: 1;
+}
+
+.ray{
+    flex: 1;
+    flex-grow: 1;
 }
