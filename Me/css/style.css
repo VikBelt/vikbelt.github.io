@@ -11,7 +11,14 @@ h1 {
 }
 
 h2 {
+    padding: 10px;
     text-align: center;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 /*START TOP NAV*/
@@ -41,12 +48,16 @@ h2 {
 /* END TOP NAV*/
 
 .home {
-    background-image: url('..\images\bluecircuit.jpg');
+    padding: 20px; 
 }
-
 .about {
     text-align: justify;
 }
+/* ARTICLES SECTION */
+.articles {
+    background-color: gainsboro;
+}
+
 /*PROJECTS SECTION*/
 .projects {
     background-color: #09588e;
