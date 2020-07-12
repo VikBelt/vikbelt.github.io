@@ -21,6 +21,11 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    padding: 20px;
+    text-align: center;
+}
+
 p{
     padding-left: 30px;
     padding-right: 30px;
@@ -82,7 +87,7 @@ p{
 }
 
 .wrapper div{
-    border: 2px #ccc solid;
+    border: 20px #09588e solid;
 }
 
 .pong{
