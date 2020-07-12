@@ -101,3 +101,36 @@ p{
     flex: 1;
     flex-grow: 1;
 }
+
+.container{
+    background-color: gainsboro;
+    display: flex;
+}
+
+.container div{
+    border: 20px #f2f2f2 solid;
+}
+
+.github {
+    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.medium{
+    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.linkedin{
+    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.email{
+    flex: 1;
+    flex-grow: 1;
+    text-align: center;
+}
