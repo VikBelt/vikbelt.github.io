@@ -1,4 +1,4 @@
-
+/* BODY, PARAGRAPH, AND HEADER */
 body {
     background-color: #f2f2f2;
     color:rgb(48, 48, 48);
@@ -63,19 +63,28 @@ p{
 }
 /* END TOP NAV*/
 
+/* START HOME*/
 .home {
-    padding: 20px; 
+    padding: 50px; 
+    background-image: url('../circuit.jpg');
+    color : #f2f2f2;
 }
+/* END HOME*/
+
+/* START ABOUT*/
 .about {
     text-align: justify;
 }
-/* ARTICLES SECTION */
+/* END ABOUT*/
+
+/* START ARTICLES  */
 .articles {
     background-color: gainsboro;
     width: 100%;
 }
+/* END ARTICLES*/
 
-/*PROJECTS SECTION*/
+/* START PROJECTS */
 .projects {
     background-color: #09588e;
     color: #f2f2f2;
@@ -101,7 +110,9 @@ p{
     flex: 1;
     flex-grow: 1;
 }
+/* END PROJECTS */
 
+/* START CONTACTS */
 .container{
     background-color: gainsboro;
     display: flex;
@@ -134,3 +145,4 @@ p{
     flex-grow: 1;
     text-align: center;
 }
+/* END CONTACTS */
