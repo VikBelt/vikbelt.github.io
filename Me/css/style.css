@@ -26,10 +26,14 @@ h4 {
     text-align: center;
 }
 
+ul{
+    padding-left: 70px;
+}
+
 p{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 /*START TOP NAV*/
@@ -65,13 +69,14 @@ p{
 
 /* START HOME*/
 .home {
-    padding: 50px; 
+    padding: 70px; 
     background-image: url('../circuit.jpg');
     color : #f2f2f2;
 }
 /* END HOME*/
 
 /* START ABOUT*/
+
 .about {
     text-align: justify;
 }
@@ -134,13 +139,13 @@ p{
     text-align: center;
 }
 
-.linkedin{
-    flex: 1;
-    flex-grow: 1;
-    text-align: center;
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
 }
 
-.email{
+.linkedin{
     flex: 1;
     flex-grow: 1;
     text-align: center;
