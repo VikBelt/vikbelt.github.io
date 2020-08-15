@@ -12,7 +12,8 @@
         <!--NAVBAR START-->
         <div class = "topnav">
             <a href = "#start"> HOME </a>
-            <a href = "#info"> ABOUT </a>
+            <a href = "#info"> ABOUT ME </a>
+            <a href = "#resume"> RESUME </a>
             <a href = "#writings"> ARTICLES </a>
             <a href = "#portfolio"> PROJECTS </a>
             <a href = "#trace"> CONTACT </a>
@@ -33,28 +34,67 @@
         <div id = "info">
             <div class = "about"> 
                 <h2>About Me</h2>
-                <p>
-                    Thanks so much for checking out my website! I am a junior at the University of Illinois - Urbana Champaign (UIUC). I am pursuing a B.S in Electrical Engineering, with a minor in Computer Science. <br> 
-                    I'm passionate about new technologies, like IoT, medical devices, StarLink, and 5G. As such, I am primarilly interested in embedded systems, computer vision, and wireless comunications. 
-                </p>
-    
-                <p>
-                    In school, I have taken coursework in signal processing, circuits, programming, and electronics. Here's a list of some relavent courses that I have taken or am taking: 
-                    <ul>
-                        <li> ECE 342 - Electronic Circuits</li>
-                        <li> CS 225 - Data Structures (in C++) </li>
-                        <li> ECE 310 - Digital Signal Processing </li>
-                        <li> ECE 220 - Computer Systems and Programming (in C) </li>
-                    </ul>
-                </p>
-                
-                <p>
-                    Outside of Class, I play the saxophone (I've been playing for 10+ years), and the Tabla (an indian percussion instrument). In addition to these interests I also love to travel and hike . I've been to over ten <br>
-                    National Parks, and more than 20 different states!
-                </p>
+                <div class = "holder">
+                    <div class = "self">
+                        <img src="self.jpg" width="200" height="260">
+                    </div>
+
+                    <div class = "info">
+                        <p>
+                            Thanks so much for stopping by my website! I am a junior at the University of Illinois - Urbana Champaign (UIUC) pursuing a BS in Electrical Engineering, as well as a minor in Computer Science. 
+                            I am primarilly interested in embedded systems, IoT devices, and high performance computing. Outside of tech, I play the saxophone (I've been playing for 10+ years), and the Tabla (an Indian drum). 
+                            I also love to travel and hike, and I've been to over ten National Parks, and more than 20 different states! If you want to know more about me, take a look at my Personal Page!
+                        </p>
+                    </div>
+                </div>
+               
             </div>
         </div>    
         <!--About Section END-->
+
+        <!--Resume Section BEGIN-->
+        <div id = "resume">
+            <div class = "pro">
+                <h2> Skills </h2>
+                <h3> Programming Languages </h3>
+                <p> <b>C++</b> </p>
+                <div class = wrap>
+                    <div class = "progress">
+                        <div class = "skill cpp"></div>
+                    </div>
+                </div>
+
+                <p> <b>C</b> </p>
+                <div class = wrap>
+                    <div class = "progress">
+                        <div class = "skill clang"></div>
+                    </div>
+                </div>
+
+                <p> <b>Python</b> </p>
+                <div class = wrap>
+                    <div class = "progress">
+                        <div class = "skill python"></div>
+                    </div>
+                </div>
+
+                <p> <b>MATLAB</b> </p>
+                <div class = wrap>
+                    <div class = "progress">
+                        <div class = "skill matlab"></div>
+                    </div>
+                </div>
+
+                <p> <b>Assembly</b> </p>
+                <div class = wrap>
+                    <div class = "progress">
+                        <div class = "skill asm"></div>
+                    </div>
+                </div>
+            </div>
+            <p style = "text-align: center;"> Please take a look at my <a href = "resume.pdf" target = "_blank"> Full Resume </a> for more information about my background. <p>
+        </div>
+        <!--Resume Section END-->
 
         <!--Articles Section BEGIN-->
         <div id = "writings">
@@ -68,7 +108,7 @@
                 </p>
             </div>
         </div>
-        <!--About Section END-->
+        <!--Articles Section END-->
         
         <!--Projects Section BEGIN-->
         <div id = portfolio>
@@ -76,7 +116,7 @@
                 <h2>My Projects</h2>
                 <div class = wrapper>
                     <div class = "pong">
-                        <h3> A C++ Pong Clone </h3>
+                        <h3> HD Pong </h3>
                         <p>
                             A clone of the classic arcade game - Pong in the C++ programming language. I used the SDL2 library for all graphics.
                             Here is the Link to the code for Pong: <a href = "https://github.com/VikBelt/Pong-Clone-Cpp"> Pong Clone C++</a>
@@ -84,7 +124,7 @@
                     </div>
     
                     <div class = "ray">
-                        <h3>C++ Raytracer (IP) </h3>
+                        <h3>C++ Raytracer</h3>
                         <p>
                             A raytracer made in modern C++, based on an object-oriented design. <br>
                             Here is the Raytracer's Code: <a href = "https://github.com/VikBelt/RayTracer">C++ Raytracer</a>
