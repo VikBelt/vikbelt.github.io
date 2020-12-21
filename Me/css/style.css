@@ -149,31 +149,36 @@ p{
 /* START PROJECTS */
 .projects {
     background-color: #475157;
-    color: #f2f2f2;
+    color: #ffffff;
     width: 100%;
 }
 
 .wrapper {
-    background-color: rgb(46, 48, 51);
-    color: #f2f2f2;
+    color: #ffffff;
+    padding: 20px;
     display: flex;
-}
-
-.wrapper div{
-    border: 20px #475157 solid;
+    flex-wrap: wrap; 
 }
 
 .pong{
+    background-color:rgb(124, 124, 124);
     text-align: center;
-    flex: 1;
-    flex-grow: 1;
+    flex: 50%;
 }
 
 .graph{
+    background-color:rgb(104, 104, 104);
     text-align: center;
-    flex: 1;
-    flex-grow: 1;
+    flex: 50%;
 }
+
+/* Responsive layout for phone */
+@media (max-width: 1200px) {
+    .pong, .graph {
+      flex: 100%;
+    }
+}
+
 /* END PROJECTS */
 
 /* START CONTACTS */
@@ -187,13 +192,13 @@ p{
 }
 
 .github {
-    flex: 1;
+    flex: 33%;
     flex-grow: 1;
     text-align: center;
 }
 
 .medium{
-    flex: 1;
+    flex: 33%;
     flex-grow: 1;
     text-align: center;
 }
@@ -206,8 +211,15 @@ p{
 }
 
 .linkedin{
-    flex: 1;
+    flex: 33%;
     flex-grow: 1;
     text-align: center;
 }
+
+@media (max-width: 2500px) {
+    .github, .medium, .linkedin {
+      flex: 100%;
+    }
+}
+
 /* END CONTACTS */
