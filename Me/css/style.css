@@ -79,20 +79,32 @@ p{
 .about {
     background-color: #2f383d;
     color: #f2f2f2;
+    width: 100%;
 }
 
 .holder{
-    display: flex;
+    padding: 20px;
 }
 
 .self { 
-    padding-left: 50px;
-    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+@media (max-width: 1200px) {
+    .self {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 82%;
+    }
 }
 
 .info {
-    padding-top: 40px;
-    text-align: justify;
+    flex : 100%;
+    text-align: center;
 }
 /* END ABOUT*/
 
