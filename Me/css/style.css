@@ -93,6 +93,16 @@ p{
     width: 25%;
 }
 
+@media (max-width: 1000px) {
+    .self {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 92%;
+    }
+}
+
+
 @media (max-width: 1200px) {
     .self {
         display: block;
