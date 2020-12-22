@@ -83,7 +83,7 @@ p{
 }
 
 .holder{
-    padding: 20px;
+    padding: 10px;
 }
 
 .self { 
@@ -102,18 +102,7 @@ p{
     }
 }
 
-
-@media (max-width: 1200px) {
-    .self {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 82%;
-    }
-}
-
 .info {
-    flex : 100%;
     text-align: center;
 }
 /* END ABOUT*/
