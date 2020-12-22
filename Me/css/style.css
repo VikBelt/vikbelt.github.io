@@ -93,7 +93,7 @@ p{
     width: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .self {
         display: block;
         margin-left: auto;
