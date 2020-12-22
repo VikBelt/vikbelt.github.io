@@ -195,23 +195,20 @@ p{
 
 /* START CONTACTS */
 .container{
-    background-color: gainsboro;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.container div{
-    border: 20px #f2f2f2 solid;
-}
 
 .github {
+    background-color: gainsboro;
     flex: 33%;
-    flex-grow: 1;
     text-align: center;
 }
 
 .medium{
+    background-color: rgb(204, 204, 204);
     flex: 33%;
-    flex-grow: 1;
     text-align: center;
 }
 
@@ -223,12 +220,13 @@ p{
 }
 
 .linkedin{
+    background-color: gainsboro;
     flex: 33%;
     flex-grow: 1;
     text-align: center;
 }
 
-@media (max-width: 2500px) {
+@media (max-width: 1200px) {
     .github, .medium, .linkedin {
       flex: 100%;
     }
