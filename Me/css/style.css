@@ -175,18 +175,24 @@ p{
 .pong{
     background-color:rgb(124, 124, 124);
     text-align: center;
-    flex: 50%;
+    flex: 33%;
 }
 
 .graph{
     background-color:rgb(104, 104, 104);
     text-align: center;
-    flex: 50%;
+    flex: 33%;
+}
+
+.processing{
+    background-color:rgb(124, 124, 124);
+    text-align: center;
+    flex: 33%;
 }
 
 /* Responsive layout for phone */
 @media (max-width: 1200px) {
-    .pong, .graph {
+    .pong, .graph .processing {
       flex: 100%;
     }
 }
