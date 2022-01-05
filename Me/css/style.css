@@ -7,7 +7,7 @@ body {
 }
 
 img {
-    border-radius: 5%;
+    border-radius: 1%;
 }
 
 h1 {
@@ -43,9 +43,50 @@ p{
     left: 0;
     top: 0;
     width: 100%;
-    opacity: 85%;
+    opacity: 100%;
 }
 
+.about-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.blog-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.photos-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.west-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+/*A*/
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -55,15 +96,92 @@ p{
     font-size: 16px;
 }
 
+.about-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.blog-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.photos-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.west-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*HOVER*/
 .topnav a:hover {
     color: #09588e;
     background-color: #f2f2f2;
 }
 
+.about-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.blog-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.photos-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.west-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+/*ACTIVE*/
 .topnav a.active {
     color:#09588e;
     background-color: #f2f2f2;
 }
+
+.about-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.blog-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.photos-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.west-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
 /* END TOP NAV*/
 
 /* START HOME*/
@@ -108,96 +226,17 @@ p{
 }
 /* END ABOUT*/
 
-/* START RESUME */
-.wrap {
-    padding-bottom: 10px;
-    padding-left: 50px;
-}
+.west_bg {background-color: #c6c1b9;}
 
-.progress {
-    background-color: rgb(192, 192, 192); 
-    width: 80%; 
-    border-radius: 5px; 
-}
+.rockies {background-color: #8c92ac;}
+.estes_park {text-align: center;}
+.rmtn {text-align: center;}
+.alpine {text-align: center;}
+.ipass {text-align: center;}
 
-.skill { 
-    background-color: #0896f5; 
-    padding: 1%; 
-    text-align: center; 
-    font-size: 20px; 
-    border-radius: 5px; 
-    padding: 15px;
-} 
-
-.cpp {
-    width: 85%;
-}
-
-.clang {
-    width: 79%;
-}
-
-.python {
-    width: 75%;
-}
-
-.matlab {
-    width: 62%;
-}
-
-.asm{
-    width: 55%;
-}
-
-/* END RESUME */
-
-/* START ARTICLES  */
-.articles {
-    background-color: gainsboro;
-    width: 100%;
-}
-/* END ARTICLES */
-
-/* START PROJECTS */
-.projects {
-    background-color: #475157;
-    color: #ffffff;
-    width: 100%;
-}
-
-.wrapper {
-    color: #ffffff;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap; 
-}
-
-.pong{
-    background-color:rgb(124, 124, 124);
-    text-align: center;
-    flex: 33%;
-}
-
-.graph{
-    background-color:rgb(104, 104, 104);
-    text-align: center;
-    flex: 33%;
-}
-
-.processing{
-    background-color:rgb(124, 124, 124);
-    text-align: center;
-    flex: 33%;
-}
-
-/* Responsive layout for phone */
-@media (max-width: 1200px) {
-    .pong, .graph .processing {
-      flex: 100%;
-    }
-}
-
-/* END PROJECTS */
+.wild_west {background-color: #eee8cd;}
+.cnm {text-align: center;}
+.i70 {text-align: center;}
 
 /* START CONTACTS */
 .container{
