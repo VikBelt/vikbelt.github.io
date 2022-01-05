@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>  
     <head>
-        <title>Vikram Belthur</title>
+        <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="finallogo.png" type="image/icon type">
         <link rel = "stylesheet" href = "css/style.css">
@@ -13,11 +13,11 @@
 
         <!--NAVBAR START-->
         <div class = "topnav">
-            <a href = "#start"> HOME </a>
-            <a href = "#info"> ABOUT ME </a>
-            <a href = "#resume"> RESUME </a>
-            <a href = "#writings"> ARTICLES </a>
-            <a href = "#portfolio"> PROJECTS </a>
+            <a href = "index.html"> HOME </a>
+            <a href = "html\about.html"> ABOUT ME </a>
+            <a href = "html\blog.html"> BLOG </a>
+            <a href = "html\photography.html"> PHOTOGRAPHY </a>
+            <a href = "html\projects.html"> PROJECTS </a>
             <a href = "#trace"> CONTACT </a>
         </div>
         <!--NAVBAR END-->
@@ -33,173 +33,18 @@
 
         
         <!--About Section BEGIN-->
-        <div id = "info">
-            <div class = "about"> 
-                <h2>About Me</h2>
-                <div class = "holder">
-                    <div class = imgdiv>
-                        <div class = "self">
-                            <img src="self.jpg" width="350" height="440">
-                        </div>
-                    </div>
-
-                    <div class = "info">
-                        <p>
-                            Thanks so much for stopping by my website! I am a rising senior at the Grainger College of Engineering in UIUC. I am pursuing a BS in Electrical Engineering, and
-                            I am primarilly interested in embedded systems, FPGA development, and wireless communications. Outside of engineering, I play the saxophone, and the Tabla (an Indian drum). 
-                            I also love to travel, and I've been to over ten National Parks, and 27 states!
-                        </p>
-                    </div>
-                </div>
-               
-            </div>
-        </div>    
         <!--About Section END-->
 
         <!--Resume Section BEGIN-->
-        <div id = "resume">
-            <div class = "pro">
-                <h2> Skills </h2>
-                <h3> Programming Languages and HDLs </h3>
-                <p> <b>C++</b> </p>
-                <div class = wrap>
-                    <div class = "progress">
-                        <div class = "skill cpp"></div>
-                    </div>
-                </div>
-
-                <p> <b>C</b> </p>
-                <div class = wrap>
-                    <div class = "progress">
-                        <div class = "skill clang"></div>
-                    </div>
-                </div>
-
-                <p> <b>Python</b> </p>
-                <div class = wrap>
-                    <div class = "progress">
-                        <div class = "skill python"></div>
-                    </div>
-                </div>
-
-                <p> <b>SystemVerilog</b> </p>
-                <div class = wrap>
-                    <div class = "progress">
-                        <div class = "skill matlab"></div>
-                    </div>
-                </div>
-
-                <p> <b>MATLAB</b> </p>
-                <div class = wrap>
-                    <div class = "progress">
-                        <div class = "skill asm"></div>
-                    </div>
-                </div>
-            </div>
-
-            <h3> Technologies </h3>
-                <h4> Embedded </h4>
-                    <p style = "text-align: center;"> 
-                        Raspberry Pi, FPGA knowledge, STM32, Arduino
-                    </p>
-
-                <h4> Web </h4>
-                    <p style = "text-align: center;"> 
-                        HTML, CSS
-                    </p>                    
-
-            <h3> Some Coursework </h3>
-
-               <p style = "text-align: center;">ECE 420 - <i>Embedded Digital Signal Processing Lab</i></p>
-               <p style = "text-align: center;">ECE 385 - <i>Digital Systems Lab</i></p>
-               <p style = "text-align: center;">ECE 342 - <i>Electronic Circuits</i></p>
-               <p style = "text-align: center;">ECE 310 - <i>Digital Signal Processing</i></p> 
-               <p style = "text-align: center;">CS 225 - <i>Data Structures and Algorithms</i></p>
-
-            <p style = "text-align: center;"> <b> Please take a look at my <a href = "resume.pdf" target = "_blank"> Full Resume </a> for more information about my background. </b> <p>
-        </div>
         <!--Resume Section END-->
 
         <!--Articles Section BEGIN-->
-        <div id = "writings">
-            <div class = "articles"> 
-                <h2>Medium Articles</h2>
-                    <div class = "text">
-                        <p>
-                            <a href = "https://medium.com/@vikbelthur/lets-add-strings-to-the-c-language-2c0e6d313ce3" target = "_blank"> Strings in C</a>
-                        </p>
-                    </div>
-                </p>
-            </div>
-        </div>
         <!--Articles Section END-->
         
         <!--Projects Section BEGIN-->
-        <div id = portfolio>
-            <div class = "projects">  
-                <h2>Personal Projects</h2>
-                <div class = wrapper>
-                    <div class = "pong">
-                        <h3> SDL Pong </h3>
-                        <p>
-                            A clone of the classic arcade game - Pong in the C++ programming language, using the SDL2 API. 
-                            <br> <br> Project <a href = "https://github.com/VikBelt/Pong-Clone-Cpp"> GitHub </a>
-                        </p>
-                    </div>
-    
-                    <div class = "graph">
-                        <h3> Graph Algorithms with Open Flights </h3>
-                        <p>
-                            Implemented a graph in C++ with data from <a href = "https://openflights.org/data.html"> open flights </a>. 
-                            Performed DFS traversal, shortest path with Dijkstra's Algorithm, and landmark-path algorithm. <br> 
-                            <br> Project <a href = "https://github.com/VikBelt/Open-Flights-Graph-Algorithms"> GitHub </a> and <a href = "https://vikrambelthur.com/cs_225_final_project_docs/index.html"> Doxygen </a>.
-                        </p>
-                    </div>
-
-                    <div class = "processing">
-                        <h3> Py Image Processor </h3>
-                        <p>
-                            Implemented a simple image processing tool using Python and OpenCV </a>. 
-                            It performs image noise generation, filtreing, color space conversions. <br> 
-                            <br> Project <a href = "https://github.com/VikBelt/ImageProcessingSuite"> GitHub. </a>
-                        </p>
-                    </div>
-
-                </div>
-                <h4> If you liked these, just wait! There are more to come!</h4>
-            </div>
-        </div>
         <!--Projects Section END-->
 
         <!--Contact Section BEGIN-->
-        <div id = "trace">
-            <div class = "contact">  
-                <h2>Contact Me</h2>
-                <div class = "container">
-                   <div class = "github">
-                       <h3> GitHub </h3>
-                       <p>
-                           Check out my <a href = "https://github.com/VikBelt"> GitHub </a>
-                       </p>
-                   </div> 
-
-                   <div class = "medium">
-                        <h3> Medium </h3>
-                        <p>
-                            Follow me on <a href = "https://medium.com/@vikbelthur"> Medium </a>
-                        </p>
-                   </div> 
-
-                   <div class = "linkedin">
-                        <h3> LinkedIn </h3>
-                        <p>
-                            Follow me on <a href = "https://www.linkedin.com/in/vikram-belthur-b523b0178/"> LinkedIn </a>
-                        </p>
-                   </div>                  
-                </div>
-                <p style = "text-align: center;"> email: vikram.belthur@gmail.com</p>
-            </div>
-        </div>
         <!--Contact Section END-->
 
     </body>
