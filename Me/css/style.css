@@ -228,6 +228,7 @@ p{
 /* END ABOUT*/
 
 .west_bg {background-color: #c6c1b9;}
+.swa_bg {background-color: #c6e2ff;}
 .rockies {background-color: #8c92ac;}
 .estes_park {text-align: center;}
 .rmtn {text-align: center;}
@@ -246,6 +247,10 @@ p{
 .nj_photos {
     color: #f2f2f2;
     background-color: #133337;
+}
+
+.swa {
+    background-color: #ffc0cb;
 }
 
 .new_york {text-align: center;}
