@@ -1,0 +1,302 @@
+
+/* BODY, PARAGRAPH, AND HEADER */
+body {
+    background-color: #f2f2f2;
+    color:rgb(48, 48, 48);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 1%;
+}
+
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*START TOP NAV*/
+.topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.about-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.blog-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.photos-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.west-topnav {
+    background-color:#2f383d;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+/*A*/
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.about-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.blog-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.photos-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.west-topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*HOVER*/
+.topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.about-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.blog-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.photos-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+
+.west-topnav a:hover {
+    color: #09588e;
+    background-color: #f2f2f2;
+}
+/*ACTIVE*/
+.topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.about-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.blog-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.photos-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+.west-topnav a.active {
+    color:#09588e;
+    background-color: #f2f2f2;
+}
+
+/* END TOP NAV*/
+
+/* START HOME*/
+.home {
+    padding: 70px; 
+    background-image: url('../circuit.jpg');
+    color : #f2f2f2;
+}
+/* END HOME*/
+
+/* START ABOUT*/
+
+.about {
+    background-color: #2f383d;
+    color: #f2f2f2;
+    width: 100%;
+}
+
+.holder{
+    padding: 10px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .self {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .self { 
+        width: 25%;
+    }
+}
+
+.info {
+    text-align: center;
+}
+/* END ABOUT*/
+
+.west_bg {background-color: #c6c1b9;}
+.swa_bg {background-color: #c6e2ff;}
+.rockies {background-color: #8c92ac;}
+.estes_park {text-align: center;}
+.rmtn {text-align: center;}
+.alpine {text-align: center;}
+.ipass {text-align: center;}
+
+.wild_west {background-color: #eee8cd;}
+.cnm {text-align: center;}
+.i70 {text-align: center;}
+
+.nys_photos {
+    color: #f2f2f2;
+    background-color: #065535;
+}
+
+.nj_photos {
+    color: #f2f2f2;
+    background-color: #133337;
+}
+
+.swa {
+    background-color: #ffc0cb;
+}
+
+.shore {
+    background-color: #fff68f;
+}
+
+.new_york {text-align: center;}
+.finger {text-align: center;}
+/* START CONTACTS */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.github {
+    background-color: gainsboro;
+    flex: 33%;
+    text-align: center;
+}
+
+.medium{
+    background-color: rgb(204, 204, 204);
+    flex: 33%;
+    text-align: center;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    padding-bottom: 20px;
+}
+
+.linkedin{
+    background-color: gainsboro;
+    flex: 33%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .github, .medium, .linkedin {
+      flex: 100%;
+    }
+}
+
+/* END CONTACTS */
